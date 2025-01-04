@@ -1,7 +1,3 @@
-Below is a **longer and more detailed README** in **English**, including more information about the system's functionality, file structure, secret passcodes for admin, and how fees work for different user statuses (Arca, Visa, Premium). Feel free to edit it to match your exact project setup.
-
----
-
 # Banking System V2.0
 
 A **C++** command-line banking application that demonstrates **user registration**, **login**, **fund transfers**, **advanced account actions**, and **logging**. This project aims to practice concepts such as **file handling**, **OOP design**, **encapsulation**, and **basic encryption** of user passwords.
