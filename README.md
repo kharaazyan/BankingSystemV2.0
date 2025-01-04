@@ -122,7 +122,7 @@ BankingSystemV2.0/
 
 1. **Clone** the repository:
    ```bash
-   git clone https://github.com/kharaazyan/BankingSystemV2.0/tree/main
+   git clone https://github.com/kharaazyan/BankingSystemV2.0
    cd BankingSystemV2.0
    ```
 2. **Build** using the Makefile:
