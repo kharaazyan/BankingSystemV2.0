@@ -89,25 +89,31 @@ BankingSystemV2.0/
 │  ├─ DatabaseData.hpp
 │  ├─ DatabaseMeta.hpp
 │  ├─ EnumClassStatus.hpp
-│  ├─ Helpers.hpp
 │  ├─ LogService.hpp
 │  ├─ User.hpp
 │  └─ Utility.hpp
 ├─ src/
+│  ├─ Account.cpp
+│  ├─ BankApplication.cpp
+│  ├─ CubeEncoder.cpp
 │  ├─ DatabaseData.cpp
 │  ├─ DatabaseMeta.cpp
 │  ├─ LogService.cpp
 │  ├─ User.cpp
 │  └─ Utility.cpp
+│  ├─ EnumClassStatus.cpp
+│  ├─ Registration.cpp
+│  ├─ Main.cpp
+│  ├─ LogService.cpp
+│  ├─ Login.cpp
 ├─ Makefile
-├─ main.cpp
 ├─ README.md
 └─ (the compiled executable, e.g. `BankingApp`)
 ```
 
 - **`include/`**: All `.hpp` headers.  
 - **`src/`**: Corresponding `.cpp` implementations.  
-- **`main.cpp`**: Entry point for the banking application.  
+- **`Main.cpp`**: Entry point for the banking application.  
 - **`Makefile`**: For building the project (adjust as needed).  
 
 ---
@@ -116,7 +122,7 @@ BankingSystemV2.0/
 
 1. **Clone** the repository:
    ```bash
-   git clone https://github.com/<your-username>/BankingSystemV2.0.git
+   git clone https://github.com/kharaazyan/BankingSystemV2.0
    cd BankingSystemV2.0
    ```
 2. **Build** using the Makefile:
